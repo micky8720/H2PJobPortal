@@ -11,7 +11,7 @@
 						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.jsp"><span>EMAIL : INFO@JOBPORTAL.COM</span></a>
+						<a href="contact.jsp"><span>EMAIL : h2p.jobportal@gmail.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -96,6 +96,7 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
+												
 													<a href="employers.jsp">Managers</a>
 												</li>
 												<li>

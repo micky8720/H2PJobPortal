@@ -88,16 +88,37 @@
 							<a href="index.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Homepage</a>
 						</li>
 						<li>
-							<a href="submit-job.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Submit Job</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">submit job</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 						<li>
-							<a href="jobs.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>All Candidates</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">all candidates</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 						<li>
-							<a href="blog.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Latest Blogs</a>
+							<a href="blog.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Latest Blogs</a>
 						</li>
 						<li>
-							<a href="jobs.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Jobs</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">jobs</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 					</ul>
 				</div>	

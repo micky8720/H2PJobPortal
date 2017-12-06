@@ -172,7 +172,7 @@ public class loginController extends HttpServlet {
 	    			session.setAttribute("list_of_all_posted_jobs", list_of_all_posted_jobs);
 	    			
 	    			session.setAttribute("list_of_all_past_jobs", list_of_all_past_jobs);
-	        		System.out.println("in manager's login...list of past events..."+list_of_all_past_jobs.get(0));
+	        		//System.out.println("in manager's login...list of past events..."+list_of_all_past_jobs.get(0));
 	    			dispatcher=getServletContext().getRequestDispatcher("/user/managerprofile.jsp");
 	        	}
 	        	else if(registerVO.getRole().equals("admin"))

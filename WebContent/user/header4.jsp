@@ -11,7 +11,7 @@
 						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.jsp"><span>EMAIL : h2p.jobprtal@gmail.com</span></a>
+						<a href="contact.jsp"><span>EMAIL : h2p.job@gmail.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -70,11 +70,11 @@
 						<div class="collapse navbar-collapse navbar-ex1-collapse padd0">
 							<ul class="nav navbar-nav pull-left">
 								<li class="dropdown">
-									<a data-toggle="dropdown" class="dropdown-toggle" href="#">HOME</a>
+									<a data-toggle="dropdown" class="dropdown-toggle" href="index.jsp">HOME</a>
 									
 								</li>
 								<li class="dropdown">
-									<a data-toggle="dropdown" class="dropdown-toggle" href="#">JOBS</a>
+									<a data-toggle="dropdown" class="dropdown-toggle" href="managerlogin.jsp">JOBS</a>
 									
 								</li>
 								<li class="dropdown">
@@ -84,7 +84,14 @@
 											<ul class="list-unstyled">
 												
 												<li>
-													<a href="my-profile.html">my profile</a>
+													<a id="demo3" onclick="myFunction3()" href="<%=request.getContextPath() %>/user/managerlogin.jsp">MY PROFILE</a>
+
+												<script>
+													function myFunction3() {
+													alert("Please Login to see profile");
+	
+													}
+												</script>
 												</li>
 											</ul>
 										</div>
@@ -98,11 +105,30 @@
 												<li>
 													<a href="employers.jsp">Managers</a>
 												</li>
+												
 												<li>
-													<a href="employer-detail.jsp">employer detail</a>
+												<a id="demo1" onclick="myFunction1()" href="<%=request.getContextPath() %>/user/managerlogin.jsp">employer detail</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
+													
 												</li>
 												<li>
-													<a href="<%=request.getContextPath() %>/user/submit-job.jsp">Submit Job</a>
+												<a id="demo" onclick="myFunction()" href="<%=request.getContextPath() %>/user/managerlogin.jsp">Submit Job</a>
+
+												<script>
+													function myFunction() {
+													alert("Please Login for submit job");
+	
+													}
+												</script>
+
+
+													</a>
 												</li>
 											</ul>
 										</div>
@@ -122,9 +148,11 @@
 													<a href="about.jsp">About Us</a>
 												</li>
 												<li>
-													<a href="<%=request.getContextPath() %>/user/login.jsp">Login</a>
+													<a href="<%=request.getContextPath() %>/user/managerlogin.jsp">Login</a>
 												</li>
 												<li>
+												
+												
 													<a href="managerregister.jsp">Register as a Manager</a>
 												</li>
 												<li>

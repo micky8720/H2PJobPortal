@@ -53,6 +53,8 @@ public class changePasswordController extends HttpServlet {
 		String password=registerDAO.getPassword(user_id);
 		 String recieverAdress=registerDAO.getEmailID(user_id);
 	       String firstname=registerDAO.getFirstName(user_id);
+	       String username=registerDAO.getUsername(user_id);
+	       System.out.println("username is ="+username);
 	       HttpSession session=request.getSession();
 	       if(flag.equals("employee"))
 	       { 
@@ -66,9 +68,9 @@ public class changePasswordController extends HttpServlet {
 	    	   }
 	    	   else
 	    	   {
-	    		   registerDAO.updatePassword(firstname, newpassword2);
+	    		   registerDAO.updatePassword(username, newpassword2);
 	    		   request.setAttribute("msg", "password changed successfully...");
-	    	       RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/user/employeeprofile.jsp");
+	    	       RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/user/managerlogin.jsp");
 	               dispatcher.forward(request, response);
 	    			return;
 	    	   }
@@ -87,7 +89,7 @@ public class changePasswordController extends HttpServlet {
 	    	   {
 	    		   registerDAO.updatePassword(firstname, newpassword2);
 	    		   request.setAttribute("msg", "password changed successfully...");
-	    	       RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/user/managerprofile.jsp");
+	    	       RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/user/managerlogin.jsp");
 	               dispatcher.forward(request, response);
 	    			return;
 	    	   }

@@ -43,7 +43,9 @@ public class selectEmployeeController extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		int user_id=Integer.parseInt(request.getParameter("user_id"));
+		System.out.println(1);
 		int event_id=Integer.parseInt(request.getParameter("event_id"));
+		System.out.println(2);
 		skilledJobEmployeeVO skilledJobEmployeeVO=new skilledJobEmployeeVO();
 		skilledJobEmployeeVO.setEvent_id(event_id);
 		skilledJobEmployeeVO.setUser_id(user_id);

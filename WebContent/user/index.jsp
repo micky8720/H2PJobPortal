@@ -23,48 +23,17 @@
 <link href="<%=request.getContextPath() %>/user/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<%@include file="header.jsp" %>
+<%@include file="header4.jsp" %>
 
 
 
-<!-- slider start here -->
+<!-- slider start here --> 
 	<div class="slideshow owl-carousel">
 		<div class="item">
 			<img src="images/slider-1.jpg" alt="slider" title="slider" class="img-responsive"/>
 			<div class="slide-detail">
-				<div class="container">
-					<div class="slider-caption">
-						<div class="off"></div>
-						<h1>Find Your Job</h1>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddleft">
-							<select class="selectpicker form-control" name="allcate">
-								<option value="1">All Category</option>
-								<option value="0">Category 1</option>
-								<option value="0">Category 2</option>
-								<option value="0">Category 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<select class="selectpicker form-control" name=	"location">
-								<option value="1">Select Location</option>
-								<option value="0">Location 1</option>
-								<option value="0">Location 2</option>
-								<option value="0">Location 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddright">
-							<div class="input-group">
-								<input name="s" class="form-control" value="" placeholder="Search" type="text">
-								<span>
-									<button type="submit" class="btnsrch" onclick="location.href='jobs.jsp'"><i class="fa fa-search"></i></button>
-								</span>
-							</div>
-						</div>
-						<div class="center">
-							<button class="btn-default">ADVANCE JOB SEARCH <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-							</button>
-						</div>	
-					</div>
+				<div class="container">	
+					
 				</div>
 			</div>
 		</div>
@@ -72,38 +41,6 @@
 			<img src="images/slider-2.jpg" alt="slider" title="slider" class="img-responsive"/>
 			<div class="slide-detail">
 				<div class="container">
-					<div class="slider-caption">
-						<div class="off"></div>
-						<h1>Find Your Job</h1>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddleft">
-							<select class="selectpicker form-control" name="allcate">
-								<option value="1">All Category</option>
-								<option value="0">Category 1</option>
-								<option value="0">Category 2</option>
-								<option value="0">Category 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<select class="selectpicker form-control" name=	"location">
-								<option value="1">Select Location</option>
-								<option value="0">Location 1</option>
-								<option value="0">Location 2</option>
-								<option value="0">Location 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddright">
-							<div class="input-group">
-								<input name="s" class="form-control" value="" placeholder="Search" type="text">
-								<span>
-									<button type="submit" class="btnsrch" onclick="location.href='jobs.jsp'"><i class="fa fa-search"></i></button>
-								</span>
-							</div>
-						</div>
-						<div class="center">
-							<button class="btn-default">ADVANCE JOB SEARCH <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-							</button>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>	
@@ -111,38 +48,6 @@
 			<img src="images/slider-3.jpg" alt="slider" title="slider" class="img-responsive"/>
 			<div class="slide-detail">
 				<div class="container">
-					<div class="slider-caption">
-						<div class="off"></div>
-						<h1>Find Your Job</h1>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddleft">
-							<select class="selectpicker form-control" name="allcate">
-								<option value="1">All Category</option>
-								<option value="0">Category 1</option>
-								<option value="0">Category 2</option>
-								<option value="0">Category 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<select class="selectpicker form-control" name=	"location">
-								<option value="1">Select Location</option>
-								<option value="0">Location 1</option>
-								<option value="0">Location 2</option>
-								<option value="0">Location 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddright">
-							<div class="input-group">
-								<input name="s" class="form-control" value="" placeholder="Search" type="text">
-								<span>
-									<button type="submit" class="btnsrch" onclick="location.href='jobs.html'"><i class="fa fa-search"></i></button>
-								</span>
-							</div>
-						</div>
-						<div class="center">
-							<button class="btn-default">ADVANCE JOB SEARCH <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-							</button>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>	
@@ -150,38 +55,6 @@
 			<img src="images/slider-1.jpg" alt="slider" title="slider" class="img-responsive"/>
 			<div class="slide-detail">
 				<div class="container">
-					<div class="slider-caption">
-						<div class="off"></div>
-						<h1>Find Your Job</h1>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddleft">
-							<select class="selectpicker form-control" name="allcate">
-								<option value="1">All Category</option>
-								<option value="0">Category 1</option>
-								<option value="0">Category 2</option>
-								<option value="0">Category 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<select class="selectpicker form-control" name=	"location">
-								<option value="1">Select Location</option>
-								<option value="0">Location 1</option>
-								<option value="0">Location 2</option>
-								<option value="0">Location 3</option>
-							</select>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 paddright">
-							<div class="input-group">
-								<input name="s" class="form-control" value="" placeholder="Search" type="text">
-								<span>
-									<button type="submit" class="btnsrch" onclick="location.href='jobs.html'"><i class="fa fa-search"></i></button>
-								</span>
-							</div>
-						</div>
-						<div class="center">
-							<button class="btn-default">ADVANCE JOB SEARCH <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-							</button>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>	
@@ -330,7 +203,7 @@
 									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Albany</a>
 								</li>
 							</ul>
-							<p>Some worker needed for shift some heavy materials. Please contact me for mre information </p>
+							<p>Some worker needed for shift some heavy materials. Please contact me for more information </p>
 						</div>
 						<button type="button" class="btn btn-info" onclick="location.href='jobs.jsp'">VIEW MORE</button>
 						<button type="button" class="btn btn-info" onclick="location.href='apply-job-form.jsp'">APPLY NOW</button>

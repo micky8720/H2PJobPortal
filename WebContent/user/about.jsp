@@ -30,13 +30,13 @@
 			<div id="top-links">
 				<ul class="list-inline pull-left button">
 					<li>
-						<a href="about.html"><span>ABOUT US</span></a>
+						<a href="about.jsp"><span>ABOUT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>CONTACT US</span></a>
+						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>EMAIL : INFO@JOBPORTAL.COM</span></a>
+						<a href="contact.html"><span>EMAIL : h2p.jobportal.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -212,16 +212,14 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
-													<a href="about.html">About Us</a>
+													<a href="about.jsp">About Us</a>
 												</li>
 												<li>
-													<a href="login.html">Login</a>
+													<a href="user/managerlogin.jspl">Login</a>
 												</li>
+												
 												<li>
-													<a href="register.html">Register</a>
-												</li>
-												<li>
-													<a href="contact.html">Contact us</a>
+													<a href="contact.jsp">Contact us</a>
 												</li>
 											</ul>
 										</div>
@@ -235,8 +233,8 @@
 			    <div class="col-sm-3 col-md-3 col-xs-12 hidden-xs">
 					<!-- button-login start here -->
 					<div class="button-login pull-right">
-						<button type="button" class="btn btn-default btn-lg" onclick="location.href='login.html'">Login</button>
-						<button type="button" class="btn btn-primary btn-lg" onclick="location.href='submit-job.html'">Submit Job</button>
+						<button type="button" class="btn btn-default btn-lg" onclick="location.href='user/managerlogin.jsp'">Login</button>
+						
 					</div>
 					<!-- button-login end here -->
 				</div>
@@ -280,7 +278,7 @@
 					<!-- about-detail start here -->
 					<div class="about-detail">
 						<h1>Who we are</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam porttitor tristique. Nunc ante elit, euismod id leo sit amet, feugiat sollicitudin nulla. Sed lobortis purus velit, at porta felis accumsan quis. Suspendisse tincidunt libero urna, sed tincidunt ligula auctor non. Suspendisse potenti. Maecenas vulputate . Sed maximus gravida nibh, quis placerat sapien. Fusce eu libero at m</p>
+						<p>As one of the biggest online community of HR executives, the website provide HR professionals with easy access to shared knowledge on various HR trends, best practices, and up-to-date industry news to help them grow and develop their most valuable assets: their people, according to Forbes. The website offer free membership which comes with a number of perks including access to thousands of HR related articles, case studies, whitepapers, polls on HR topics, surveys, forms and other templates. Additionally, the free membership provide you with an opportunity to attend up to 5 live or archived webinars and one virtual or online conference every month</p>
 					</div>	
 					<!-- about-detail end here -->
 					
@@ -291,7 +289,7 @@
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12 paddleft">
 							<p>
-							Ut erat est, posuere ac condimentum in, lobortis nec mi. Nulla facilisi. Suspendisse maximus vestibulum elit, nec semper orci ullamcorper eget. Duis ut risus in metus rhoncus vestibulum non eget orci. Proin velit leo, volutpat sed dapibus et, dignissim nec diam. Cras vel libero in quam sagittis malesuada. Fusce eu accumsan lectus, et faucibus ipsum. Nam tempor gravida massa, nec blandit magna tincidunt eu. Nulla quis porta metus, sed tincidunt metus. Sed vitae est venenatis, lobortis quam sed, imperdiet lectus. Nam pretium fermentum enim, eu viverra sapien bibendum lacinia. Morbi libero lacus, mattis sit amet sodales ac, convallis sit amet ligula. Sed rhoncus mauris sollicitudin libero faucibus elementum. Sed turpis leo, pellentesque ac dignissim ut, efficitur et elit. Maecenas finibus tellus sem, sit amet semper eros ultricies sit amet from a Lorem Ipsum passage, and going through the cites of the word in classical literature.
+							
 							</p>
 						</div>
 					</div>	
@@ -300,7 +298,12 @@
 					<!-- mission start here -->
 					<div class="mission">
 						<h1>Our Mission</h1>
-						<p>Ut erat est, posuere ac condimentum in, lobortis nec mi. Nulla facilisi. Suspendisse maximus vestibulum elit, nec semper orci ullamcorper eget. Duis ut risus in metus rhoncus vestibulum non eget orci. Proin velit leo, volutpat sed dapibus et, dignissim nec diam. Cras vel libero in quam sagittis malesuada. Fusce eu accumsan lectus, et faucibus ipsum. Nam tempor gravida massa,</p>
+						<p>Being unbiased towards all candidates
+Recruiting the best talent
+Helping the employees identify their potential
+Promoting transparent, merit based selection
+Developing cost effective recruitment process
+Appointing an authority for final decision</p>
 					</div>
 					<!-- mission end here -->
 					
@@ -547,7 +550,12 @@
 			<div class="row">
 				<div class="col-sm-3 col-md-3 col-xs-12 matter">
 					<img src="images/foot-logo.png"  class="img-responsive footerlogochange" alt="foot-logo" title="foot-logo" />
-					<p>Aliquam hendrit rutrum iaculis nullam ondimentum mal uada velit beum donec sit amet tristique erosam amet risus mollis malesuada quis quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultr amet tristique erosam.</p>
+					<p>Being unbiased towards all candidates
+Recruiting the best talent
+Helping the employees identify their potential
+Promoting transparent, merit based selection
+Developing cost effective recruitment process
+Appointing an authority for final decision.</p>
 						
 				</div>
 				<div class="col-sm-3 col-md-3 col-xs-12 info">

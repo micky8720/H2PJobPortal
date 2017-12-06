@@ -54,7 +54,8 @@ public class editjobController extends HttpServlet {
 
 		List<submitjobVO> list_of_all_posted_jobs=submitjobDAO.fetch_all_posted_jobs(manager_id);
 		session.setAttribute("list_of_all_posted_jobs", list_of_all_posted_jobs);
-		
+		List<submitjobVO> list_of_all_past_jobs=submitjobDAO.fetch_all_past_jobs(manager_id);
+		session.setAttribute("list_of_all_past_jobs", list_of_all_past_jobs);
 		request.setAttribute("msg", "Job Details Deleted");
 		RequestDispatcher rd=request.getRequestDispatcher("user/managerprofile.jsp");
 		rd.forward(request, response);
@@ -107,7 +108,8 @@ public class editjobController extends HttpServlet {
 		
 		List<submitjobVO> list_of_all_posted_jobs=submitjobDAO.fetch_all_posted_jobs(manager_id);
 		session.setAttribute("list_of_all_posted_jobs", list_of_all_posted_jobs);
-		
+		List<submitjobVO> list_of_all_past_jobs=submitjobDAO.fetch_all_past_jobs(manager_id);
+		session.setAttribute("list_of_all_past_jobs", list_of_all_past_jobs);
 		request.setAttribute("msg", "Job Details Updated");
 		RequestDispatcher rd=request.getRequestDispatcher("user/managerprofile.jsp");
 		rd.forward(request, response);

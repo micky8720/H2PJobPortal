@@ -30,13 +30,13 @@
 			<div id="top-links">
 				<ul class="list-inline pull-left button">
 					<li>
-						<a href="about.html"><span>ABOUT US</span></a>
+						<a href="about.jsp"><span>ABOUT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>CONTACT US</span></a>
+						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>EMAIL : INFO@JOBPORTAL.COM</span></a>
+						<a href="contact.jsp"><span>EMAIL : h2p.jobportal@gmail.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -132,19 +132,19 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
-													<a href="jobs.html">job grid view</a>
+													<a href="jobs.jsp">job grid view</a>
 												</li>
 												<li>
-													<a href="jobs-list-view.html">Job List view</a>
+													<a href="jobs-list-view.jsp">Job List view</a>
 												</li>
 												<li>
-													<a href="jobs-detail.html">job detail</a>
+													<a href="jobs-detail.jsp">job detail</a>
 												</li>
 												<li>
-													<a href="apply-job-form.html">apply job form</a>
+													<a href="apply-job-form.jsp">apply job form</a>
 												</li>
 												<li>
-													<a href="jobs-search.html">Search job</a>
+													<a href="jobs-search.jsp">Search job</a>
 												</li>
 											</ul>
 										</div>
@@ -165,7 +165,7 @@
 													<a href="candidate-single-view.html">candidate single view</a>
 												</li>
 												<li>
-													<a href="my-profile.html">my profile</a>
+													<a href="eployeeprofile.jsp">my profile</a>
 												</li>
 											</ul>
 										</div>
@@ -177,14 +177,23 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
-													<a href="employers.html">employers</a>
+													<a href="employeeprofile.jsp">employers</a>
 												</li>
 												<li>
-													<a href="employer-detail.html">employer detail</a>
+													<a href="employeeprofile.jsp">employer detail</a>
 												</li>
+												
 												<li>
-													<a href="submit-job.html">Submit Job</a>
-												</li>
+												<a id="demo1" onclick="myFunction1()" href="employeeprofile.jsp">Submit job</a>
+
+												<script>
+													function myFunction1() {
+													alert("only manager can post job");
+	
+													}
+												</script>
+						</li>
+													
 											</ul>
 										</div>
 									</div>
@@ -212,16 +221,16 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
-													<a href="about.html">About Us</a>
+													<a href="about.jsp">About Us</a>
 												</li>
 												<li>
-													<a href="login.html">Login</a>
+													<a href="managerlogin.jsp">Login</a>
 												</li>
 												<li>
-													<a href="register.html">Register</a>
+													<a href="employeeregister.jsp">Register</a>
 												</li>
 												<li>
-													<a href="contact.html">Contact us</a>
+													<a href="contact.jsp">Contact us</a>
 												</li>
 											</ul>
 										</div>
@@ -256,11 +265,11 @@
 						<h1>EMPLOYERS</h1>
 						<ul class="list-inline">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="index.jsp">Home</a>
 							</li>
 							<li>></li>
 							<li>
-								<a href="employers.html">Employers</a>
+								<a href="employeeprofile.jsp">Employers</a>
 							</li>
 						</ul>
 					</div>
@@ -750,11 +759,21 @@
 					<h5>Useful Links</h5>
 					<ul class="list-unstyled">
 						<li>
-							<a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Homepage</a>
+							<a href="index.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Homepage</a>
 						</li>
+						
 						<li>
-							<a href="submit-job.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Submit Job</a>
+												<a id="demo1" onclick="myFunction1()" href="employeeprofile.jsp">Submit job</a>
+
+												<script>
+													function myFunction1() {
+													alert("only manager can post jobs");
+	
+													}
+												</script>
 						</li>
+							
+						
 						<li>
 							<a href="jobs.html"><i class="fa fa-caret-right" aria-hidden="true"></i>All Candidates</a>
 						</li>

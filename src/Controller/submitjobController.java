@@ -93,6 +93,8 @@ public class submitjobController extends HttpServlet {
 	           submitjobdao.submitevent(event);
 	           List<submitjobVO> list_of_all_posted_jobs=submitjobdao.fetch_all_posted_jobs(manager_id);
    			   session.setAttribute("list_of_all_posted_jobs", list_of_all_posted_jobs);
+   			List<submitjobVO> list_of_all_past_jobs=submitjobdao.fetch_all_past_jobs(manager_id);
+   			session.setAttribute("list_of_all_past_jobs", list_of_all_past_jobs);
        		
 	           System.out.println("Here2222...");
 	           request.setAttribute("msg", " Event Submitted in Database");

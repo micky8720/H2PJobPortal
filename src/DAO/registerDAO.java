@@ -164,6 +164,38 @@ public static String getPassword(int user_id) {
 	   }
 	return null;
 }
+public static String  getUsername(int user_id) {
+	String username;
+
+		
+		String DB_URL = "jdbc:mysql://localhost:3308/jobportal";
+		   String USER = "root";
+		   String PASS = "root";
+		  // PrintWriter out=response.getWriter();
+		   Connection conn = null;
+		   
+		try{
+		      Class.forName("com.mysql.jdbc.Driver");
+		      conn = DriverManager.getConnection(DB_URL, USER, PASS);
+		      Statement stmt = conn.createStatement();
+		      String sql = "SELECT * FROM user where user_id= '"+user_id+"'";
+		      ResultSet rs = stmt.executeQuery(sql);
+		      while(rs.next()){
+		    	  
+		    	  username=rs.getString("username");
+		    	  //System.out.println("in get id method....skills:"+skills);
+		    	  return username;
+		    	  
+		    	     
+		      }
+		      rs.close();
+		   }catch(SQLException se) {
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      e.printStackTrace();
+		   }
+		return null;
+	}
 public static String  getSkills(String username) {
 	String skills;
 
@@ -196,7 +228,6 @@ public static String  getSkills(String username) {
 		   }
 		return null;
 	}
-
 public static void updateSkill(String username, String newSkills) 
 {
 	Session session = null;

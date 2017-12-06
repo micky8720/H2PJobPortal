@@ -72,18 +72,25 @@ public class viewapplicantController extends HttpServlet {
 			else
 			{		
 			RequestDispatcher dispatcher2=getServletContext().getRequestDispatcher("/user/applicantData.jsp");
-    	dispatcher2.forward(request, response);
-    	return;
+    	   dispatcher2.forward(request, response);
+    	   return;
 		}
 		}
 		else
-			System.out.println("checking eventId:"+event_id);
-		request.setAttribute("event_id", event_id);
-		RequestDispatcher dispatcher2=getServletContext().getRequestDispatcher("/user/applicantDataSkilled.jsp");
-    	dispatcher2.forward(request, response);
-    	return;
-			 
-	}
+		{
+			if(flag.equals("past"))
+			{
+				RequestDispatcher dispatcher2=getServletContext().getRequestDispatcher("/user/applicantDataPast.jsp");
+		    	dispatcher2.forward(request, response);
+		    	return;
+			}
+			else
+			{		
+			RequestDispatcher dispatcher2=getServletContext().getRequestDispatcher("/user/applicantDataSkilled.jsp");
+    	   dispatcher2.forward(request, response);
+    	   return;
+		    }	 
+	}}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

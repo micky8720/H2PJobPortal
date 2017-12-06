@@ -48,7 +48,7 @@
 						<h1>MY PROFILE</h1>
 						<ul class="list-inline">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="index.jsp">Home</a>
 							</li>
 							<li>></li>
 							<li>
@@ -270,6 +270,11 @@
 								</div>
 							</fieldset>
 						</form>
+						</div>
+					</div>
+					</div>
+					</div>
+					
 					</div>
 					<!-- submit-form end here -->
 					<div class="tab-pane" id="changepassword">
@@ -278,12 +283,12 @@
                             Add new password again:<input class="form-control" type="text" id="newPassword2" name="newPassword2" />	                       
 							<input type="submit" value="Submit" />
 						  </form> 
-		
+	
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+			</div>
+	
 <!-- submit-job-form end here -->
 
 	</div>							

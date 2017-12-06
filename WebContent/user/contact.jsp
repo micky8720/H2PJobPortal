@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Apply Job-form</title>
+<title>Contact</title>
 <!-- Bootstrap stylesheet -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <!-- font -->
@@ -36,7 +36,7 @@
 						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.jsp"><span>EMAIL : h2p.jobportal@gmail.com</span></a>
+						<a href="contact.html"><span>EMAIL : h2p.jobportal@gmail.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -79,8 +79,8 @@
 				<div class="col-sm-3 col-md-3 col-xs-12 visible-xs paddleft">
 					<!-- button-login start here -->
 					<div class="button-login pull-right">
-						<button type="button" class="btn btn-default btn-lg" onclick="location.href='managerlogin.jsp'">Login</button>
-						<button type="button" class="btn btn-primary btn-lg" onclick="location.href='submit-job.jsp'">Submit Job</button>
+						<button type="button" class="btn btn-default btn-lg" onclick="location.href='login.html'">Login</button>
+						<button type="button" class="btn btn-primary btn-lg" onclick="location.href='submit-job.html'">Submit Job</button>
 					</div>
 					<!-- button-login end here -->
 				</div>
@@ -99,7 +99,7 @@
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
 												<li>
-													<a href="index.jsp">Header layout 1</a>
+													<a href="index.html">Header layout 1</a>
 												</li>
 												<li>
 													<a href="header2.html">Header layout 2</a>
@@ -111,7 +111,7 @@
 													<a href="header4.html">Header layout 4</a>
 												</li>
 												<li>
-													<a href="index.jsp">Footer layout 1</a>
+													<a href="index.html">Footer layout 1</a>
 												</li>
 												<li>
 													<a href="header2.html">Footer layout 2</a>
@@ -215,10 +215,10 @@
 													<a href="about.jsp">About Us</a>
 												</li>
 												<li>
-													<a href="login.jsp">Login</a>
+													<a href="managerlogin.jsp">Login</a>
 												</li>
 												<li>
-													<a href="register.jsp">Register</a>
+													<a href="managerregister.jsp">Register</a>
 												</li>
 												<li>
 													<a href="contact.jsp">Contact us</a>
@@ -235,8 +235,8 @@
 			    <div class="col-sm-3 col-md-3 col-xs-12 hidden-xs">
 					<!-- button-login start here -->
 					<div class="button-login pull-right">
-						<button type="button" class="btn btn-default btn-lg" onclick="location.href='login.html'">Login</button>
-						<button type="button" class="btn btn-primary btn-lg" onclick="location.href='submit-job.html'">Submit Job</button>
+						<button type="button" class="btn btn-default btn-lg" onclick="location.href='managerlogin.jsp'">Login</button>
+						
 					</div>
 					<!-- button-login end here -->
 				</div>
@@ -246,373 +246,118 @@
 	</header>
 <!-- header end here -->
 
-<!-- jobs start here -->
-	<div id="jobs">
+<!-- contact start here -->
+	<div id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
-					<!-- about-content start here -->
-					<div class="jobs-content">
-						<h1>Job Detail</h1>
+					<!-- contact-content start here -->
+					<div class="contact-content">
+						<h1>Contact Us</h1>
 						<ul class="list-inline">
 							<li>
 								<a href="index.jsp">Home</a>
 							</li>
 							<li>></li>
 							<li>
-								<a href="apply-job-form.jsp">Jobs</a>
+								<a href="contact.jsp">Contact us</a>
 							</li>
 						</ul>
 					</div>
-				<!-- jobs-content end here -->
+				<!-- contact-content end here -->
 				</div>
 			</div>
 		</div>
 	</div>
-<!-- jobs end here -->
+<!-- contact end here -->
 
 
-<!-- job start here -->
-	<div id="jobdetail">
+<!-- contact-form start here -->
+	<div id="contact-form">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
-					<img src="images/p6.png" alt="p6" title="p6" class="img-responsive" />
-					<div class="left-side">
-						<ul class="list-unstyled">
-							<li>
-								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> Location</h5>
-								<p>Sector 17, Chandigarh</p>
-							</li>
-							
-							<li>
-								<h5><i class="fa fa-money" aria-hidden="true"></i> 
-								Salary</h5>
-								<p>25,000 Per.month</p>
-							</li>
-							<li>
-								<h5><i class="fa fa-shield" aria-hidden="true"></i> 
-								Experience</h5>
-								<p>3 years</p>
-							</li>
-							<li>
-								<h5><i class="fa fa-clock-o" aria-hidden="true"></i> Posted</h5>
-								<p>32 minutes ago</p>
-							</li>
-						</ul>
-					</div>
-					<div class="leftside margin-t">
-						<div class="latest-jobs">
-							<h1>LATEST JOBS</h1>
-							<div class="border"></div>
-							<div class="border1"></div>
-						</div>
-						<div class="job-content">
-							<img src="images/p1.jpg" alt="p1" title="p1">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<a href="apply-job-form.jsp">Apply Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-						</div>
-						<div class="job-content">
-							<img src="images/p2.jpg" alt="p2" title="p2">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<a href="apply-job-form.html">Apply Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-						</div>
-						<div class="job-content">
-							<img src="images/p3.jpg" alt="p3" title="p3">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<a href="apply-job-form.html">Apply Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-						</div>
-						<div class="job-content">
-							<img src="images/p4.jpg" alt="p4" title="p4">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<a href="apply-job-form.jsp">Apply Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-8 col-sm-8 col-xs-12 paddleft content">
-					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-					<ul class="list-inline">
-						<li>
-							<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-						</li>
-					</ul>
-					<p>Aliquam hendrit rutrum iaculis nullam ondimentum maluada velit beum donec sit amet tristique erosam amet risus mollis malesuada quis quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae mattis nisi vel elit porttitor euismod pharetra sem interdum.</p>
-					<h5>Job Description</h5>
-					<p><span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</span>
-					</p>
-					<p><span>Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</span></p>
-					<button type="submit" class="btn btn-info" onclick="location.href='submit-job.html'">APPLY THIS JOB</button>
-					
-					<div class="clearfix"></div>
-					
-					<div class="job-form col-md-12 col-sm-12 col-xs-12">
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<!-- form start here -->
+					<div class="form">
 						<div class="border"></div>
 						<div class="border1"></div>
 						<form class="form-horizontal" method="post">
 							<fieldset>
 								<div class="form-group">
 									<div class="col-sm-6">
-										<label>First Name</label>
-										<input class="form-control" placeholder="Type your first name" id="input-name" value="" name="jobname" required="" type="text">
+										<label>Your Name</label>
+										<input class="form-control" placeholder="Enter your name" id="input-name" value="" name="jobname" required="" type="text">
 									</div>
-									<div class="col-sm-6">
-										<label>Last Name</label>
-										<input class="form-control" placeholder="Type your last name" id="input-lastname" value="" name="jobname" required="" type="text">
-									</div>
-								</div>
-								<div class="form-group">
 									<div class="col-sm-6">
 										<label>Your Email</label>
-										<input class="form-control" id="input-email" placeholder="Enter your email address" value="" name="email" required="" type="text">
-									</div>
-									<div class="col-sm-6">
-										<label>Add your CV</label>
-										<div class="browse">
-											<input name="file" id="file" class="inputfile" type="file">
-											<label for="file">Choose a file</label>
-										</div>
-										<span>Your CV must be a .doc, .pdf, .docx, .rtf and no bigger than 1Mb</span>
+										<input class="form-control" id="input-email" placeholder="you@yourdomain.com" value="" name="email" required="" type="text">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
-										<label>Additional information</label>
+										<label>Subject</label>
+										<input class="form-control" id="input-subject" placeholder="" value="" name="email" required="" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<label>Message</label>
 										<textarea class="form-control" id="input-enquiry" rows="10" name="enquiry" placeholder="" required=""></textarea>
 									</div>
 								</div>
 								
 								
 								<div class="button">
-									<button type="submit" value="Submit" class="btn btn-primary btnus" >APPLY NOW</button>
+									<button type="submit" value="Submit" class="btn btn-primary btnus">SEND MESSAGE</button>
 								</div>
 							</fieldset>
 						</form>
 					</div>
+					<!-- form end here -->
 				</div>
-					
-				<!-- featured start here -->
-				<div id="similar" class="col-md-12 col-sm-12 col-xs-12 padd0">
-					<!-- similar-jobs start here -->
-					<div class="similar-jobs">
+				
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<!-- detail start here -->
+					<div class="detail col-md-12">
 						<div class="border"></div>
-						<h1><span>Similars</span> JOBS</h1>
 						<div class="border1"></div>
+						<ul class="list-unstyled">
+							<li>
+								<h5>Address</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+								<a href="contact.html"><span>123 Main Street,Anytown,LDH 12345 INDIA</span></a>
+							</li>
+							<li>
+								<h5>Phone</h5>
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<a href="contact.html"><span>+1800-123-1234</span></a>
+							</li>
+							<li>
+								<h5>Email</h5>
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<a href="contact.html"><span>Support@jobportal.com</span>
+								</a>
+							</li>
+							<li>
+								<h5>Skype</h5>
+								<i class="fa fa-skype" aria-hidden="true"></i>
+								<a href="contact.html"><span>Jobs.2017</span></a>
+							</li>
+						</ul>
 					</div>
-					<!-- similar-jobs end here -->
-				
-					<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="product-box">
-						<div class="image">
-							<a href="jobs.html">
-								<img class="img-responsive" src="images/p1.jpg" alt="p1" title="p1"/>
-							</a>	
-								<div class="buttons">
-									<div class="open-down">
-										<button type="button" class="rotate1">
-											<i class="fa fa-link" aria-hidden="true"></i>
-										</button>
-										<button type="button" class="rotate1">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</div>
-								</div>		
-						</div>		
-						<div class="matter">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<p>There are many variations of passages of lorem Ipsum available [...]</p>
-						</div>
-						<button type="button" class="btn btn-info" onclick="location.href='jobs.html'">VIEW MORE</button>
-						<button type="button" class="btn btn-info" onclick="location.href='apply-job-form.html'">APPLY NOW</button>
-					</div>
+					<!-- detail end here -->
+					<img src="images/support.jpg" class="img-responsive" alt="support" title="support">
 				</div>
-				
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="product-box">
-						<div class="image">
-							<a href="jobs.html">
-								<img class="img-responsive" src="images/p2.jpg" alt="p2" title="p2"/>
-							</a>	
-								<div class="buttons">
-									<div class="open-down">
-										<button type="button" class="rotate1">
-											<i class="fa fa-link" aria-hidden="true"></i>
-										</button>
-										<button type="button" class="rotate1">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</div>
-								</div>		
-						</div>		
-						<div class="matter">
-							<h1>IT Department Manager</h1>
-							<ul class="list-inline">
-								<li>
-									<a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i> Full Time</a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
-								</li>
-							</ul>
-							<p>There are many variations of passages of lorem Ipsum available [...]</p>
-						</div>
-						<button type="button" class="btn btn-info" onclick="location.href='jobs.html'">VIEW MORE</button>
-						<button type="button" class="btn btn-info" onclick="location.href='apply-job-form.html'">APPLY NOW</button>
-					</div>
-				</div>
-				
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="product-box">
-						<div class="image">
-							<a href="jobs.html">
-								<img class="img-responsive" src="images/p3.jpg" alt="p3" title="p3"/>
-							</a>	
-								<div class="buttons">
-									<div class="open-down">
-										<button type="button" class="rotate1">
-											<i class="fa fa-link" aria-hidden="true"></i>
-										</button>
-										<button type="button" class="rotate1">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</div>
-								</div>		
-						</div>		
-						<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-								<i class="fa fa-desktop" aria-hidden="true"></i>
-								<span>Information Technology</span>
-							</div>
-						</a>
-					</div>	
-				</div>
-				
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-								<i class="fa fa-university" aria-hidden="true"></i>
-								<span>Banking</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				
-			    <div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-							<i class="fa fa-money" aria-hidden="true"></i>
-								<span>Accounting</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-								<i class="fa fa-bar-chart" aria-hidden="true"></i>
-									<span>Sales & marketing</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-								<i class="fa fa-tachometer" aria-hidden="true"></i>
-								<span>Digital & Creative</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-							<i class="fa fa-suitcase" aria-hidden="true"></i>
-								<span>Management</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-								<i class="fa fa-gavel" aria-hidden="true"></i>
-									<span>Legal Jobs</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="matter">
-						<a href="jobs.jsp">
-							<div class="boxbor">
-							<i class="fa fa-tags" aria-hidden="true"></i>
-								<span>Retail</span>
-							</div>
-						</a>
-							</ul>
-							<p>There are many variations of passages of lorem Ipsum available [...]</p>
-						</div>
-						<button type="button" class="btn btn-info" onclick="location.href='jobs.html'">VIEW MORE</button>
-						<button type="button" class="btn btn-info" onclick="location.href='apply-job-form.html'">APPLY NOW</button>
-					</div>
-				</div>
-				</div>
-				<!-- featured end here -->
 				
 			</div>
 		</div>
+		
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219104.85983086875!2d75.71658808151895!3d30.90026973769041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a837462345a7d%3A0x681102348ec60610!2sLudhiana%2C+Punjab!5e0!3m2!1sen!2sin!4v1482266274532"></iframe>
+		</div>
+		
 	</div>
-<!-- abouts end here -->
-
+<!-- contact-form end here -->
 
 
 <!-- Footer start here -->
@@ -670,7 +415,12 @@
 			<div class="row">
 				<div class="col-sm-3 col-md-3 col-xs-12 matter">
 					<img src="images/foot-logo.png"  class="img-responsive footerlogochange" alt="foot-logo" title="foot-logo" />
-					<p>Aliquam hendrit rutrum iaculis nullam ondimentum mal uada velit beum donec sit amet tristique erosam amet risus mollis malesuada quis quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultr amet tristique erosam.</p>
+					<p>Being unbiased towards all candidates
+Recruiting the best talent
+Helping the employees identify their potential
+Promoting transparent, merit based selection
+Developing cost effective recruitment process
+Appointing an authority for final decision</p>
 						
 				</div>
 				<div class="col-sm-3 col-md-3 col-xs-12 info">

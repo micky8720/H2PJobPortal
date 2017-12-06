@@ -30,13 +30,13 @@
 			<div id="top-links">
 				<ul class="list-inline pull-left button">
 					<li>
-						<a href="about.html"><span>ABOUT US</span></a>
+						<a href="about.jsp"><span>ABOUT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>CONTACT US</span></a>
+						<a href="contact.jsp"><span>CONTACT US</span></a>
 					</li>
 					<li>
-						<a href="contact.html"><span>EMAIL : INFO@JOBPORTAL.COM</span></a>
+						<a href="contact.jsp"><span>EMAIL : h2p.jobportal@gmail.com</span></a>
 					</li>
 				</ul>
 				<ul class="list-inline pull-right icon">
@@ -1374,7 +1374,13 @@
 			<div class="row">
 				<div class="col-sm-3 col-md-3 col-xs-12 matter">
 					<img src="images/foot-logo.png"  class="img-responsive footerlogochange" alt="foot-logo" title="foot-logo" />
-					<p>Aliquam hendrit rutrum iaculis nullam ondimentum mal uada velit beum donec sit amet tristique erosam amet risus mollis malesuada quis quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultr amet tristique erosam.</p>
+					<p>Being unbiased towards all candidates<br/>
+						Recruiting the best talent<br/>
+						Helping the employees identify their potential<br/>
+						Promoting transparent, merit based selection<br/>
+						Developing cost effective recruitment process<br/>
+						Appointing an authority for final decision<br/>
+						</p>
 						
 				</div>
 				<div class="col-sm-3 col-md-3 col-xs-12 info">
@@ -1401,19 +1407,40 @@
 					<h5>Useful Links</h5>
 					<ul class="list-unstyled">
 						<li>
-							<a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Homepage</a>
+							<a href="index.jsp"><i class="fa fa-caret-right" aria-hidden="true"></i>Homepage</a>
 						</li>
 						<li>
-							<a href="submit-job.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Submit Job</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">submit job</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 						<li>
-							<a href="jobs.html"><i class="fa fa-caret-right" aria-hidden="true"></i>All Candidates</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">all candidates</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 						<li>
 							<a href="blog.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Latest Blogs</a>
 						</li>
 						<li>
-							<a href="jobs.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Jobs</a>
+												<a id="demo1" onclick="myFunction1()" href="managerlogin.jsp">jobs</a>
+
+												<script>
+													function myFunction1() {
+													alert("Please Login first");
+	
+													}
+												</script>
 						</li>
 					</ul>
 				</div>	
